@@ -44,7 +44,7 @@ data Response = Response {
 } deriving Show
 
 data Result = Result {
-    _resultMessageID :: String,
+    _resultMessageID :: Maybe String,
     _resultRegistrationID :: Maybe String,
     _resultError :: Maybe String
 } deriving Show

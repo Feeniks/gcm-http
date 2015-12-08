@@ -63,5 +63,5 @@ instance FromJSON Response where
     parseJSON _ = mzero
 
 instance FromJSON Result where
-    parseJSON (Object v) = Result <$> v .: "message_id" <*> v .:? "registration_id" <*> v .:? "error"
+    parseJSON (Object v) = Result <$> v .:? "message_id" <*> v .:? "registration_id" <*> v .:? "error"
     parseJSON _ = mzero

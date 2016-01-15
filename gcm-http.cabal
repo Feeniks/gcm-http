@@ -1,5 +1,5 @@
 name:                gcm-http
-version:             0.1.1
+version:             0.1.2
 synopsis:            GCM HTTP-server client
 description:         GCM HTTP-server client
 homepage:            http://github.com/feeniks/gcm-http#readme
